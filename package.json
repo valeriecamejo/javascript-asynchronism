@@ -1,0 +1,34 @@
+{
+  "name": "asynchronism",
+  "version": "1.0.0",
+  "description": "JavaScript asynchronism",
+  "main": "index.js",
+  "scripts": {
+    "callback": "node src/callback/index.js",
+    "callback:api": "node src/callback/api.js",
+    "promise": "node src/promise/index.js",
+    "promise:api": "node src/promise/api.js",
+    "async": "node src/async/index.js",
+    "async:api": "node src/async/api.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/valeriecamejo/javascript-asynchronism.git"
+  },
+  "keywords": [
+    "callback",
+    "promise",
+    "async",
+    "await"
+  ],
+  "author": "Valerie Camejo",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/valeriecamejo/javascript-asynchronism/issues"
+  },
+  "homepage": "https://github.com/valeriecamejo/javascript-asynchronism#readme",
+  "dependencies": {
+    "axios": "^0.19.2",
+    "xmlhttprequest": "^1.8.0"
+  }
+}
